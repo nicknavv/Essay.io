@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,wFAAI",
+    "sources": [
+        "mainstyles.scss"
+    ],
+    "names": [],
+    "file": "mainstyles.css"
+}
