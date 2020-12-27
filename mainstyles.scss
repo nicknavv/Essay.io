@@ -1,1 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+/* Reset Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+$darkp: #3c096c;
+$midp: #5a189a;
+$lightp: #7b2cbf;
+$tintp: #9d4edd;
