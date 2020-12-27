@@ -10,10 +10,11 @@
   - Opinionated
   - History, etc.
 - Promote college and high school writers :black_nib:
-- Promote research and conversation :mag_right:
+- Promote research and conversation :mag_right: :speech_balloon:
 - Microblogging functionality for users
   - Save and share favorite essays :star:
   - Comment and start thread discussions :iphone:
+- Global community :earth_africa:
 
 ## What are the guidelines?
 
