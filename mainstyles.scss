@@ -38,6 +38,40 @@ $tintp: #9d4edd;
       padding: 15px;
       border-bottom: 1px solid rgba(0, 0, 0, 0.05);
       border-top: 1px solid rgba(255, 255, 255, 0.05);
+
+      &:hover {
+        background: $darkp;
+      }
+
+      a {
+        color: white;
+        display: block;
+
+        .fas {
+          width: 25px;
+        }
+      }
+    }
+
+    .social-media {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+
+      a {
+        display: block;
+        width: 40px;
+        background: $tintp;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin: 0 5px;
+        color: #fff;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+      }
     }
   }
 }

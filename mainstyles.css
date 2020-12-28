@@ -37,4 +37,41 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
+
+.wrapper .sidebar li:hover {
+  background: #3c096c;
+}
+
+.wrapper .sidebar li a {
+  color: white;
+  display: block;
+}
+
+.wrapper .sidebar li a .fas {
+  width: 25px;
+}
+
+.wrapper .sidebar .social-media {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .sidebar .social-media a {
+  display: block;
+  width: 40px;
+  background: #9d4edd;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0 5px;
+  color: #fff;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
 /*# sourceMappingURL=mainstyles.css.map */
