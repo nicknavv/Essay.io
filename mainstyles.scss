@@ -9,6 +9,7 @@
   font-family: "Poppins", sans-serif;
   list-style: none;
   text-decoration: none;
+  letter-spacing: 1px;
 }
 
 $darkp: #3c096c;
@@ -84,6 +85,13 @@ $tintp: #9d4edd;
     padding: 20px;
     background: $darkp;
     color: #fff;
-    border-bottom: 3px solid $tintp;
+    border-bottom: 5px solid $tintp;
+    font-size: 1.5rem;
+  }
+
+  .pdf {
+    text-align: center;
+    border: 5px solid $lightp;
+    background: #636363;
   }
 }
