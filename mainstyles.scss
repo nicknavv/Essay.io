@@ -74,4 +74,16 @@ $tintp: #9d4edd;
       }
     }
   }
+
+  .main-content {
+    width: 100%;
+    margin-left: 200px;
+  }
+
+  .header {
+    padding: 20px;
+    background: $darkp;
+    color: #fff;
+    border-bottom: 3px solid $tintp;
+  }
 }

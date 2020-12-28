@@ -74,4 +74,16 @@
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
+
+.wrapper .main-content {
+  width: 100%;
+  margin-left: 200px;
+}
+
+.wrapper .header {
+  padding: 20px;
+  background: #3c096c;
+  color: #fff;
+  border-bottom: 3px solid #9d4edd;
+}
 /*# sourceMappingURL=mainstyles.css.map */
