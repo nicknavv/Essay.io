@@ -7,9 +7,37 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 
 $darkp: #3c096c;
 $midp: #5a189a;
 $lightp: #7b2cbf;
 $tintp: #9d4edd;
+
+.wrapper {
+  display: flex;
+  position: relative;
+
+  .sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: $midp;
+    padding: 30px 0;
+
+    h2 {
+      color: #fff;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    li {
+      padding: 15px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+  }
+}
